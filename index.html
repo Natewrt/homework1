@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        html,body {
+    height:100%;
+}
+        .header {
+            background-color: antiquewhite;
+            height:20%;
+            width: 100%;
+            display:flex;
+        }
+        #text1 {
+            vertical-align: top;
+            text-align: left;
+        }
+        #text2 {
+            text-align: center;
+            line-height: 100px;
+        }
+        /* Create two equal columns that floats next to each other */
+        .column1 {
+        float: left;
+        width: 20%;
+        height: 100%;
+        background-color: aquamarine
+        
+        }
+        .column2 {
+        float: left;
+        width: 80%;
+        height: 100%;
+        background-color: beige;
+        }
+        .row {
+            width: 100%;
+    height: 200px;
+        }
+        /* Clear floats after the columns */
+
+        .footer {
+            background-color: bisque;
+            line-height: 100px;
+            text-align: center;
+            height: 20%;
+            width: 100%;
+            display:flex;
+        }
+</style>
+    </style>
+</head>
+<body class="parent">
+    <div class="header">
+        <div id="text1"><b>Website logo</b></div>
+        <div id="text2">~header~</div></div>
+    <div class="row">
+        <div class="column1"><ul>
+                <li>Menu Link</li>
+                <li>Menu Link</li>
+                <li>Menu Link</li>
+                <li>Menu Link</li>
+              <li>Menu column</li></ul></div>
+        <div class="column2">
+            <h1>Page heading</h1>
+            <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+            </p>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
